@@ -6,11 +6,20 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
+a:hover{text-decoration: underline !important;}
 
 * {
   box-sizing: border-box;
+}
+.MuiAppBar-colorPrimary,.MuiButton-containedPrimary{background-color:#327058 !important}
+.MuiButton-textPrimary,.MuiTypography-colorPrimary{color:#327058 !important}
+#__next header a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+footer{background: #333;
+  padding: 25px;
+  color: #fff;
+  margin-top:30px;
 }
